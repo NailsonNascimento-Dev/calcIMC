@@ -10,36 +10,37 @@
     <script src="funcoes.js"></script>
 </head>
 
-<body>
+<body class="flex-container">
 
-    <div class="flex-container">
+    <div class="formulario">
 
         <h1>Calculo de IMC</h1>
         <hr>
-
-        
+               
+        <div class="campos">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome"><br><br>
-        
+        </div>
 
         
+        <div class="campos">
             <label for="altura">Altura:</label>
             <input type="text" name="altura" id="altura"><br><br>
-       
+        </div>
 
-
+        <div class="campos">
             <label for="peso">Peso</label>
             <input type="text" name="peso" id="peso"><br><br>
+        </div>
 
-
-
+        <div class="campos">
             <label for="resultado">Resultado</label>
             <textarea name="resultado" id="resultado"></textarea><br><br>
+        </div>
 
-
-
+        <div class="campos">
             <input type="button" onclick="calculadorImc()" value="calcular">
-
+        </div>
 
     </div>
 
